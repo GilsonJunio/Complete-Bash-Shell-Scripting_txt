@@ -7,18 +7,14 @@
 	Display a command output
 	Display a variable value
 
-*Syntax of  echo command:
+*Often Syntax of  echo command:
 
 **echo  [-enE]  “[arguments]”
 	\n :  This option creates new line from where it is used
 	\b :  This option is used to remove one space back from where it is used
 	\t  :  This option is used to create horizontal tab spaces
 	\v :  This option is used to create vertical tab spaces
-	\a :  This option is used to create a sound alert.
-	\r :  This options is used for carriage return
-	\c:    Suppress any further output
-	\ \ : Escapes or eliminate the special purpose of  your escaped 
-	characters.
+	\c:    Suppress any further output characters.
 
 *The -E option disables the interpretation of  the escape characters. This is 
 the default.
@@ -30,5 +26,18 @@ will be interpreted/executed.
 
 *echo command with colors:
 	echo  -e  “\033[0;31m This is in red”
+
+#HELP
+**echo  [-enE]  “[arguments]”
+	\n :  This option creates new line from where it is used
+	\b :  This option is used to remove one space back from where it is used
+	\t  :  This option is used to create horizontal tab spaces
+	\v :  This option is used to create vertical tab spaces
+	\a :  This option is used to create a sound alert.
+	\r :  This options is used for carriage return
+	\c:    Suppress any further output
+	\ \ : Escapes or eliminate the special purpose of  your escaped 
+	characters.
+
 
 [END]
