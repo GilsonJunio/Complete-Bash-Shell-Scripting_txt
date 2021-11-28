@@ -1,0 +1,34 @@
+*echo command
+	The echo command is one of  the most basic 
+	and frequently used commands in Unix world.
+
+*echo command is used for:
+	Display a message
+	Display a command output
+	Display a variable value
+
+*Syntax of  echo command:
+
+**echo  [-enE]  “[arguments]”
+	\n :  This option creates new line from where it is used
+	\b :  This option is used to remove one space back from where it is used
+	\t  :  This option is used to create horizontal tab spaces
+	\v :  This option is used to create vertical tab spaces
+	\a :  This option is used to create a sound alert.
+	\r :  This options is used for carriage return
+	\c:    Suppress any further output
+	\ \ : Escapes or eliminate the special purpose of  your escaped 
+	characters.
+
+*The -E option disables the interpretation of  the escape characters. This is 
+the default.
+
+*When the -n option is used, the trailing newline is suppressed.
+
+*When the -e options is given, then the following backslash-escaped characters 
+will be interpreted/executed.
+
+*echo command with colors:
+	echo  -e  “\033[0;31m This is in red”
+
+[END]
