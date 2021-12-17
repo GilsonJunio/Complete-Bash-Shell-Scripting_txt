@@ -1,0 +1,25 @@
+Variables:
+Variables plays an important role in any programming/scripting language.
+Variables are used to store data/value.
+Define/declare a variable:
+  x=2 (don’t provide space on either side of = symbol)
+Use echo $x or echo “$x” or echo “${x}”
+  y=5.6
+  m=shell
+  n=“shell scripting”
+  cmd=$(date) or cmd=`cmd` (very very important)
+Note: No need to declare a data type.
+Default data/value of a variable is an empty.
+
+Types of Variables:
+There are two types of variables in Unix World.
+They are:
+  System defined variables
+  User defined Variables
+Note: use env command to see list of system defined variables.
+Rules to define variable names:
+  The name of a variable can only contain letters (a to z or A to Z), numbers (0 to 9), and
+  the underscore character (_).
+Furthermore, a variable's name can only start with a letter or an underscore.
+Don’t include space in a variable name.
+Learn how to automate common tasks using bash shell scripting
